@@ -6,7 +6,10 @@ using namespace std;
 int main(int argc, char* argv[]) {
   student s1,s2;
 
- s1.set_name("Amy"); s1.set_age(20); s2.set_name("James"); s2.set_age(17); s1.get_age()>s2.get_age() ? s1.print_name(); cout<< "is older":s2.print_name(); cout <<"is older";
+ s1.set_name("Amy"); s1.set_age(20);
+ s2.set_name("James");
+ s2.set_age(17);
+ s1.get_age()>s2.get_age() ? s1.print_name():s2.print_name(); cout <<"is older";
 
 
 
@@ -27,7 +30,7 @@ int main(int argc, char* argv[]) {
   //Find what the age of the youngest person
  
   
-  // Print all info for the yougest person
+  // Print all info for the youngest person
  
   
   
