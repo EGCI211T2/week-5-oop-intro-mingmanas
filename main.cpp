@@ -12,30 +12,6 @@ int main(int argc, char* argv[]) {
  s1.get_age()>s2.get_age() ? s1.print_name():s2.print_name(); cout <<"is older";
 
 
-
-  student a[N];
-  // Set age and set name for the first two ppl
-  int i,age;
-  string n;
-   // 1. Ask for N names and N age using cin
- 
-  
- 
-  //2. Print name and age of all N ppl
-  
-  
-  
-  //3. Print name and age of 
-  //the youngest person
-  //Find what the age of the youngest person
- 
-  
-  // Print all info for the youngest person
- 
-  
-  
-  //4. Change input from cin to argv
-
   
  return 0;
 
